@@ -12,6 +12,7 @@
 		6D550A3C21E35E0100681307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D550A3A21E35E0100681307 /* Main.storyboard */; };
 		6D550A3E21E35E0700681307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D550A3D21E35E0700681307 /* Assets.xcassets */; };
 		6D550A4121E35E0700681307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D550A3F21E35E0700681307 /* LaunchScreen.storyboard */; };
+		6D550A4921E35E3900681307 /* TestPlist2.m3u in Resources */ = {isa = PBXBuildFile; fileRef = 6D550A4821E35E3800681307 /* TestPlist2.m3u */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6D550A3D21E35E0700681307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D550A4021E35E0700681307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D550A4221E35E0700681307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D550A4821E35E3800681307 /* TestPlist2.m3u */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestPlist2.m3u; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		6D550A3521E35E0100681307 /* ParseInputFile */ = {
 			isa = PBXGroup;
 			children = (
+				6D550A4821E35E3800681307 /* TestPlist2.m3u */,
 				6D550A3621E35E0100681307 /* AppDelegate.swift */,
 				6D550A3821E35E0100681307 /* ViewController.swift */,
 				6D550A3A21E35E0100681307 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 				6D550A4121E35E0700681307 /* LaunchScreen.storyboard in Resources */,
 				6D550A3E21E35E0700681307 /* Assets.xcassets in Resources */,
 				6D550A3C21E35E0100681307 /* Main.storyboard in Resources */,
+				6D550A4921E35E3900681307 /* TestPlist2.m3u in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
