@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         fetchInfo()
     }
     
-    func fetchInfo() {
+    fileprivate func fetchInfo() {
         guard let path = Bundle.main.path(forResource: "TestPlist2", ofType: "m3u") else { return }
         do {
             if let infoArray = try parseInputFile(path) {
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         }
     }
     
-    func parseInputFile(_ path: String) throws -> [ItemInfo]? {
+    fileprivate func parseInputFile(_ path: String) throws -> [ItemInfo]? {
         var infoArray = [ItemInfo]()
         
         do {
